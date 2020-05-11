@@ -137,8 +137,3 @@ Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, *Attent
 Jianfeng Gao (Microsoft), Micahel Galley (Microsoft), Lihong Li (Google), *Neural Approaches to Conversational AI: Question Answering*, Task-Oriented Dialogues and Social Chatbots, 10 September 2019<br/>
 
 Jacob Devlin Ming-Wei Chang Kenton Lee Kristina Toutanova of Google AI Language, *BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding*, 11 October 2018
-
-
-```bert-base-multilingual-cased```
-
-Trained on cased text in the top 104 languages with the largest Wikipedias
