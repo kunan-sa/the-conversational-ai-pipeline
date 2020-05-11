@@ -1,0 +1,35 @@
+language: es
+pipeline:
+  - name: WhitespaceTokenizer
+  - name: LexicalSyntacticFeaturizer
+  - name: CountVectorsFeaturizer
+  - name: CountVectorsFeaturizer
+    analyzer: char_wb
+    min_ngram: 1
+    max_ngram: 4
+  - name: DIETClassifier
+    epochs: 30
+    number_of_transformer_layers: 4
+    transformer_size: 256
+    use_masked_language_model: True
+    drop_rate: 0.25
+    weight_sparsity: 0.7
+    batch_size: [64, 256]
+    embedding_dimension: 30
+    hidden_layer_sizes:
+      text: [512, 128]
+  - name: EntitySynonymMapper
+policies:
+- name: EmbeddingPolicy
+  max_history: 10
+  epochs: 20
+  batch_size:
+  - 32
+  - 64
+- max_history: 6
+  name: AugmentedMemoizationPolicy
+- core_threshold: 0.3
+  name: TwoStageFallbackPolicy
+  nlu_threshold: 0.8
+- name: FormPolicy
+- name: MappingPolicy

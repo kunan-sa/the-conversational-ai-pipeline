@@ -1,0 +1,22 @@
+language: es
+pipeline:
+- name: SpacyNLP
+- name: SpacyTokenizer
+- name: SpacyFeaturizer
+- name: RegexFeaturizer
+- name: CRFEntityExtractor
+- name: EntitySynonymMapper
+- name: SklearnIntentClassifier
+  intent_tokenization_flag: true
+  intent_split_symbol: +
+policies:
+- name: MemoizationPolicy
+- name: KerasPolicy
+- name: MappingPolicy
+- name: EmbeddingPolicy
+- name: FormPolicy
+- name: TwoStageFallbackPolicy
+  nlu_threshold: 0.2
+  core_threshold: 0.2
+  fallback_core_action_name: action_default_fallback
+  fallback_nlu_action_name: action_default_ask_affirmation

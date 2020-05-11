@@ -1,0 +1,439 @@
+{
+  "consulta_direccion": {
+    "precision": 0.7142857142857143,
+    "recall": 0.10416666666666667,
+    "f1-score": 0.18181818181818182,
+    "support": 48,
+    "confused_with": {
+      "inform_service": 10,
+      "consulta_services_type": 9,
+      "out_of_scope": 8
+    }
+  },
+  "restart": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 16,
+    "confused_with": {
+      "out_of_scope": 6,
+      "consulta_services_type": 5,
+      "affirm": 2
+    }
+  },
+  "greet+inform": {
+    "precision": 0.6,
+    "recall": 0.4444444444444444,
+    "f1-score": 0.5106382978723405,
+    "support": 27,
+    "confused_with": {
+      "consulta_services_type": 8,
+      "ask_joke_request": 2
+    }
+  },
+  "ask_made": {
+    "precision": 0.3333333333333333,
+    "recall": 0.08695652173913043,
+    "f1-score": 0.13793103448275862,
+    "support": 23,
+    "confused_with": {
+      "consulta_services_type": 7,
+      "ask_howdoing": 5,
+      "otra_fecha": 4
+    }
+  },
+  "consulta_services_type": {
+    "precision": 0.3357142857142857,
+    "recall": 0.6308724832214765,
+    "f1-score": 0.43822843822843827,
+    "support": 149,
+    "confused_with": {
+      "out_of_scope": 12,
+      "thanks": 7
+    }
+  },
+  "ask_duration": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 12,
+    "confused_with": {
+      "consulta_services_type": 7,
+      "thanks": 2,
+      "inform_service": 1
+    }
+  },
+  "laugh+thanks": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "thanks": 2,
+      "inform": 2,
+      "greet": 1
+    }
+  },
+  "unsure": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "thanks": 2,
+      "affirm": 1,
+      "out_of_scope": 1
+    }
+  },
+  "inform": {
+    "precision": 0.9585492227979274,
+    "recall": 0.9685863874345549,
+    "f1-score": 0.9635416666666666,
+    "support": 573,
+    "confused_with": {
+      "thanks": 6,
+      "greet+inform": 6
+    }
+  },
+  "ask_joke_request": {
+    "precision": 0.18461538461538463,
+    "recall": 0.3157894736842105,
+    "f1-score": 0.23300970873786409,
+    "support": 38,
+    "confused_with": {
+      "consulta_services_type": 12,
+      "out_of_scope": 5
+    }
+  },
+  "affirm+ask_bot_challenge": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "ask_howdoing": 1,
+      "faq_kunan": 1,
+      "ask_weather": 1
+    }
+  },
+  "inform_service": {
+    "precision": 0.3404255319148936,
+    "recall": 0.64,
+    "f1-score": 0.4444444444444445,
+    "support": 50,
+    "confused_with": {
+      "consulta_services_type": 10,
+      "inform+inform_service": 5
+    }
+  },
+  "ask_bot_name": {
+    "precision": 1.0,
+    "recall": 0.045454545454545456,
+    "f1-score": 0.08695652173913045,
+    "support": 22,
+    "confused_with": {
+      "out_of_scope": 7,
+      "ask_howdoing": 5,
+      "greet": 2
+    }
+  },
+  "ask_services": {
+    "precision": 0.75,
+    "recall": 0.2222222222222222,
+    "f1-score": 0.34285714285714286,
+    "support": 27,
+    "confused_with": {
+      "inform_service": 9,
+      "out_of_scope": 5
+    }
+  },
+  "ask_bot_challenge": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 9,
+    "confused_with": {
+      "out_of_scope": 5,
+      "deny": 1,
+      "otra_fecha": 1
+    }
+  },
+  "postpone": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 19,
+    "confused_with": {
+      "consulta_services_type": 11,
+      "out_of_scope": 5,
+      "ask_howdoing": 2
+    }
+  },
+  "ask_doctor": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 14,
+    "confused_with": {
+      "consulta_services_type": 6,
+      "out_of_scope": 5,
+      "affirm": 1
+    }
+  },
+  "ask_wherefrom": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 8,
+    "confused_with": {
+      "out_of_scope": 3,
+      "ask_howdoing": 1,
+      "greet": 1
+    }
+  },
+  "ask_howdoing": {
+    "precision": 0.22784810126582278,
+    "recall": 0.5454545454545454,
+    "f1-score": 0.32142857142857145,
+    "support": 33,
+    "confused_with": {
+      "out_of_scope": 8,
+      "ask_weather": 2
+    }
+  },
+  "faq_kunan": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 12,
+    "confused_with": {
+      "out_of_scope": 5,
+      "ask_howdoing": 3,
+      "inform_service": 2
+    }
+  },
+  "ask_change": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 17,
+    "confused_with": {
+      "thanks": 3,
+      "out_of_scope": 3,
+      "ask_joke_request": 3
+    }
+  },
+  "affirm": {
+    "precision": 0.4782608695652174,
+    "recall": 0.6875,
+    "f1-score": 0.5641025641025642,
+    "support": 16,
+    "confused_with": {
+      "greet": 2,
+      "ask_joke_request": 1
+    }
+  },
+  "human_agent": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 15,
+    "confused_with": {
+      "consulta_services_type": 7,
+      "inform_service": 2,
+      "out_of_scope": 2
+    }
+  },
+  "out_of_scope": {
+    "precision": 0.17307692307692307,
+    "recall": 0.2109375,
+    "f1-score": 0.19014084507042256,
+    "support": 128,
+    "confused_with": {
+      "consulta_services_type": 35,
+      "ask_joke_request": 11
+    }
+  },
+  "ask_languagesbot": {
+    "precision": 0.43478260869565216,
+    "recall": 0.3225806451612903,
+    "f1-score": 0.37037037037037035,
+    "support": 31,
+    "confused_with": {
+      "out_of_scope": 6,
+      "thanks": 4
+    }
+  },
+  "thanks+consulta_direccion": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 9,
+    "confused_with": {
+      "consulta_services_type": 2,
+      "ask_howdoing": 2,
+      "inform_service": 2
+    }
+  },
+  "laugh": {
+    "precision": 0.6666666666666666,
+    "recall": 0.2857142857142857,
+    "f1-score": 0.4,
+    "support": 7,
+    "confused_with": {
+      "thanks": 4,
+      "greet": 1
+    }
+  },
+  "ask_weather": {
+    "precision": 0.2,
+    "recall": 0.12,
+    "f1-score": 0.15,
+    "support": 25,
+    "confused_with": {
+      "consulta_services_type": 9,
+      "out_of_scope": 5,
+      "ask_howdoing": 3
+    }
+  },
+  "goodbye": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 23,
+    "confused_with": {
+      "thanks": 9,
+      "out_of_scope": 7,
+      "ask_joke_request": 4
+    }
+  },
+  "deny": {
+    "precision": 0.07142857142857142,
+    "recall": 0.1,
+    "f1-score": 0.08333333333333333,
+    "support": 10,
+    "confused_with": {
+      "thanks": 3,
+      "out_of_scope": 2,
+      "greet": 2
+    }
+  },
+  "no_brindar_datos": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 7,
+    "confused_with": {
+      "inform_service": 2,
+      "ask_howdoing": 2,
+      "inform+inform_service": 1
+    }
+  },
+  "thanks": {
+    "precision": 0.23577235772357724,
+    "recall": 0.58,
+    "f1-score": 0.33526011560693647,
+    "support": 50,
+    "confused_with": {
+      "out_of_scope": 5,
+      "ask_joke_request": 3
+    }
+  },
+  "deny+thanks": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "thanks": 3,
+      "deny": 1,
+      "ask_joke_request": 1
+    }
+  },
+  "greet": {
+    "precision": 0.22916666666666666,
+    "recall": 0.275,
+    "f1-score": 0.25,
+    "support": 40,
+    "confused_with": {
+      "thanks": 15,
+      "ask_howdoing": 7
+    }
+  },
+  "ask_enojo": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 15,
+    "confused_with": {
+      "thanks": 3,
+      "consulta_services_type": 2,
+      "ask_howdoing": 2
+    }
+  },
+  "greet+consulta_direccion": {
+    "precision": 0.3333333333333333,
+    "recall": 0.16129032258064516,
+    "f1-score": 0.21739130434782605,
+    "support": 31,
+    "confused_with": {
+      "consulta_services_type": 9,
+      "inform_service": 6
+    }
+  },
+  "inform+inform_service": {
+    "precision": 0.5666666666666667,
+    "recall": 0.5483870967741935,
+    "f1-score": 0.5573770491803278,
+    "support": 31,
+    "confused_with": {
+      "inform_service": 12,
+      "consulta_services_type": 2
+    }
+  },
+  "otra_fecha": {
+    "precision": 0.3409090909090909,
+    "recall": 0.2459016393442623,
+    "f1-score": 0.2857142857142857,
+    "support": 61,
+    "confused_with": {
+      "out_of_scope": 12,
+      "consulta_services_type": 7
+    }
+  },
+  "ask_hours": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 10,
+    "confused_with": {
+      "consulta_services_type": 4,
+      "out_of_scope": 3,
+      "thanks": 1
+    }
+  },
+  "ask_howold": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 19,
+    "confused_with": {
+      "consulta_services_type": 12,
+      "thanks": 2,
+      "out_of_scope": 2
+    }
+  },
+  "accuracy": 0.5276595744680851,
+  "macro avg": {
+    "precision": 0.22937088321649313,
+    "recall": 0.18853146949741184,
+    "f1-score": 0.17661359690004014,
+    "support": 1645
+  },
+  "weighted avg": {
+    "precision": 0.5194797174198362,
+    "recall": 0.5276595744680851,
+    "f1-score": 0.4962821479535169,
+    "support": 1645
+  }
+}

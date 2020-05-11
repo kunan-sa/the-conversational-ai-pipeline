@@ -1,0 +1,1977 @@
+[
+  {
+    "text": "que es dermatologia",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 7,
+        "end": 19,
+        "value": "dermatología",
+        "entity": "service",
+        "confidence": 0.7358637885886198,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "que es nutrición",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 7,
+        "end": 16,
+        "value": "nutrición",
+        "entity": "service",
+        "confidence": 0.5204869547868872,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "que es nutricion",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 7,
+        "end": 16,
+        "value": "nutrición",
+        "entity": "service",
+        "confidence": 0.7918886493159298,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "hola mi nombre es javier",
+    "entities": [
+      {
+        "start": 18,
+        "end": 24,
+        "value": "javier",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "buen dia mi nombre es maria",
+    "entities": [
+      {
+        "start": 22,
+        "end": 27,
+        "value": "maria",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Buen dia😊 Mí nombre Gabriela Alejandra Marek",
+    "entities": [
+      {
+        "start": 20,
+        "end": 44,
+        "value": "Gabriela Alejandra Marek",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "hola me llamo Elizabeth Lorenzo",
+    "entities": [
+      {
+        "start": 14,
+        "end": 31,
+        "value": "Elizabeth Lorenzo",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "hola soy Emiliano Ramos",
+    "entities": [
+      {
+        "start": 9,
+        "end": 23,
+        "value": "Emiliano Ramos",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Gáston Fortuny",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "Gáston Fortuny",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Laura Aballay",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "Laura Aballay",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Sofía Garbardino",
+    "entities": [
+      {
+        "start": 0,
+        "end": 16,
+        "value": "Sofía Garbardino",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Domingo Matheu",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "Domingo Matheu",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Horacio Belvedere",
+    "entities": [
+      {
+        "start": 0,
+        "end": 17,
+        "value": "Horacio Belvedere",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Matías de Irigoyen",
+    "entities": [
+      {
+        "start": 0,
+        "end": 18,
+        "value": "Matías de Irigoyen",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Adam Smith",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "Adam Smith",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Migue Cervantes",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "Migue Cervantes",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "karen palacios",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "karen palacios",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "mi nombre es karen palacios",
+    "entities": [
+      {
+        "start": 13,
+        "end": 27,
+        "value": "karen palacios",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Carlos Paz",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "Carlos Paz",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "alfredo ruiz",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "alfredo ruiz",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Valldez Cortez Silvana Mercedes",
+    "entities": [
+      {
+        "start": 0,
+        "end": 31,
+        "value": "Valldez Cortez Silvana Mercedes",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "bububjanes@hotimaos.gov",
+    "entities": [
+      {
+        "start": 0,
+        "end": 23,
+        "value": "bububjanes@hotimaos.gov",
+        "entity": "email"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "hola mi nombre es maria",
+    "entities": [
+      {
+        "start": 18,
+        "end": 23,
+        "value": "maria",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Barbara Lozada",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "Barbara Lozada",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Javier Vassallo",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "Javier Vassallo",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Laura Alemany",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "laura alemany",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "34.345.456, bubjanes@gmail.com",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "34.345.456",
+        "entity": "dni"
+      },
+      {
+        "start": 12,
+        "end": 30,
+        "value": "bubjanes@gmail.com",
+        "entity": "email"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 12,
+        "end": 30,
+        "value": "bubjanes@gmail.com",
+        "entity": "email",
+        "confidence": 0.8606989946525371,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Débora Ríos Cabrera",
+    "entities": [
+      {
+        "start": 0,
+        "end": 19,
+        "value": "débora ríos cabrera",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Dolores Moreno Ponce",
+    "entities": [
+      {
+        "start": 0,
+        "end": 20,
+        "value": "Dolores Moreno Ponce",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Norberto Maldonado Paz",
+    "entities": [
+      {
+        "start": 0,
+        "end": 22,
+        "value": "Norberto Maldonado Paz",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Ester Campos",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "Ester Campos",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Emma Moyano",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "emma moyano",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Consuelo Victoria Garza",
+    "entities": [
+      {
+        "start": 0,
+        "end": 23,
+        "value": "Consuelo Victoria Garza",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Azahara Guzmán",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "azahara guzmán",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Nestor Escobar",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "Nestor Escobar",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "mi nombre es Pepe",
+    "entities": [
+      {
+        "start": 13,
+        "end": 17,
+        "value": "pepe",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Delfina De León",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "delfina de león",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Karen Palacios",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "karen palacios",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "hola quiero un turno para dentista",
+    "entities": [
+      {
+        "start": 26,
+        "end": 34,
+        "value": "dentista",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "hola quiero un turno para flebologia, me llamo Alejandra Ortega",
+    "entities": [
+      {
+        "start": 26,
+        "end": 36,
+        "value": "flebologia",
+        "entity": "service"
+      },
+      {
+        "start": 47,
+        "end": 63,
+        "value": "Alejandra Ortega",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 26,
+        "end": 36,
+        "value": "flebología",
+        "entity": "service",
+        "confidence": 0.9851410403647819,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "hola quiero un turno para estetica, me llamo Elizabeth Soto",
+    "entities": [
+      {
+        "start": 26,
+        "end": 34,
+        "value": "estetica",
+        "entity": "service"
+      },
+      {
+        "start": 45,
+        "end": 59,
+        "value": "Elizabeth Soto",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 26,
+        "end": 34,
+        "value": "estética",
+        "entity": "service",
+        "confidence": 0.9029837788594552,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "hola quiero un turno para dermatologia, me llamo Regina Ortiz",
+    "entities": [
+      {
+        "start": 26,
+        "end": 38,
+        "value": "dermatologia",
+        "entity": "service"
+      },
+      {
+        "start": 49,
+        "end": 61,
+        "value": "Regina Ortiz",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 26,
+        "end": 38,
+        "value": "dermatología",
+        "entity": "service",
+        "confidence": 0.992496073709651,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "mi nombre es Andrés Sosa y quiero un turno para flebologia",
+    "entities": [
+      {
+        "start": 13,
+        "end": 24,
+        "value": "Andrés Sosa",
+        "entity": "name"
+      },
+      {
+        "start": 48,
+        "end": 58,
+        "value": "flebología",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 48,
+        "end": 58,
+        "value": "flebología",
+        "entity": "service",
+        "confidence": 0.9788088729889852,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "mi nombre es Amparo Valdez Bravo y quiero un turno para dermatologia",
+    "entities": [
+      {
+        "start": 13,
+        "end": 32,
+        "value": "amparo valdez bravo",
+        "entity": "name"
+      },
+      {
+        "start": 56,
+        "end": 68,
+        "value": "dermatología",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 56,
+        "end": 68,
+        "value": "dermatología",
+        "entity": "service",
+        "confidence": 0.9896987430347449,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "mi nombre es Laura Alemany, mi dni es 54.345.345 y quiero un turno para dermatologia",
+    "entities": [
+      {
+        "start": 13,
+        "end": 26,
+        "value": "laura alemany",
+        "entity": "name"
+      },
+      {
+        "start": 38,
+        "end": 48,
+        "value": "54.345.345",
+        "entity": "dni"
+      },
+      {
+        "start": 72,
+        "end": 84,
+        "value": "dermatología",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 72,
+        "end": 84,
+        "value": "dermatología",
+        "entity": "service",
+        "confidence": 0.9896987429367062,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "buenas soy Guadalupe Fernandez, 89.890.098. quiero reservar un turno para dermatologia",
+    "entities": [
+      {
+        "start": 11,
+        "end": 30,
+        "value": "Guadalupe Fernandez",
+        "entity": "name"
+      },
+      {
+        "start": 32,
+        "end": 42,
+        "value": "89.890.098",
+        "entity": "dni"
+      },
+      {
+        "start": 74,
+        "end": 86,
+        "value": "dermatología",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 11,
+        "end": 30,
+        "value": "guadalupe fernandez",
+        "entity": "name",
+        "confidence": 0.984087628175272,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 74,
+        "end": 86,
+        "value": "dermatología",
+        "entity": "service",
+        "confidence": 0.9896987431366101,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "quiero un turno de flebologia para Pablo",
+    "entities": [
+      {
+        "start": 19,
+        "end": 29,
+        "value": "flebología",
+        "entity": "service"
+      },
+      {
+        "start": 35,
+        "end": 40,
+        "value": "Pablo",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "hola me llamo Maria Fernanda Reyes 12.123.133 y quiero reservar un turno para nutricion",
+    "entities": [
+      {
+        "start": 14,
+        "end": 34,
+        "value": "Maria Fernanda Reyes",
+        "entity": "name"
+      },
+      {
+        "start": 35,
+        "end": 45,
+        "value": "12.123.133",
+        "entity": "dni"
+      },
+      {
+        "start": 78,
+        "end": 87,
+        "value": "nutrición",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 78,
+        "end": 87,
+        "value": "nutrición",
+        "entity": "service",
+        "confidence": 0.9934145464574504,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "buen dias. Quiero un turno para traumatologia",
+    "entities": [
+      {
+        "start": 32,
+        "end": 45,
+        "value": "traumatologia",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "turno de flebología podra ser?",
+    "entities": [
+      {
+        "start": 9,
+        "end": 19,
+        "value": "flebología",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "quiero un turno de flebología",
+    "entities": [
+      {
+        "start": 19,
+        "end": 29,
+        "value": "flebología",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "quiero un turno para estetica?",
+    "entities": [
+      {
+        "start": 21,
+        "end": 29,
+        "value": "estetica",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "quisiera flebología",
+    "entities": [
+      {
+        "start": 9,
+        "end": 19,
+        "value": "flebología",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "un turno de dermatología porfi",
+    "entities": [
+      {
+        "start": 12,
+        "end": 24,
+        "value": "dermatología",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "me gustaria un turno de flebologia Por la mañana",
+    "entities": [
+      {
+        "start": 24,
+        "end": 34,
+        "value": "flebologia",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "quiero un turno de flebologia por favor",
+    "entities": [
+      {
+        "start": 19,
+        "end": 29,
+        "value": "flebología",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "esta roto",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "esta roto",
+        "entity": "name",
+        "confidence": 0.7651808466422614,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "otra vez",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "otra vez",
+        "entity": "name",
+        "confidence": 0.9301185393256589,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "doctor morales",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "doctor morales",
+        "entity": "name",
+        "confidence": 0.5831956662936483,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "cuanto tiempo dura el tratamiento de flebologia",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 37,
+        "end": 47,
+        "value": "flebología",
+        "entity": "service",
+        "confidence": 0.9829211758210564,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "brandon sucks",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "brandon sucks",
+        "entity": "name",
+        "confidence": 0.8163803936664167,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "que es flebologia",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 7,
+        "end": 17,
+        "value": "flebología",
+        "entity": "service",
+        "confidence": 0.9441067777844717,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "que es flebología",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 7,
+        "end": 17,
+        "value": "flebología",
+        "entity": "service",
+        "confidence": 0.9114336551063253,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "que es dermatología",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 7,
+        "end": 19,
+        "value": "dermatología",
+        "entity": "service",
+        "confidence": 0.47676239746458177,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "en que consiste flebologia",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 16,
+        "end": 26,
+        "value": "flebología",
+        "entity": "service",
+        "confidence": 0.8156966702554485,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "en que consiste flebología",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 16,
+        "end": 26,
+        "value": "flebología",
+        "entity": "service",
+        "confidence": 0.7176526121575992,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "hola soy Matías Peña quiero reservar un turno",
+    "entities": [
+      {
+        "start": 9,
+        "end": 20,
+        "value": "Matías Peña",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "hola soy Luna Reyes quiero reservar un turno",
+    "entities": [
+      {
+        "start": 9,
+        "end": 19,
+        "value": "Luna Reyes",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "hola soy Miguel Ángel Costa quiero reservar un turno",
+    "entities": [
+      {
+        "start": 9,
+        "end": 27,
+        "value": "Miguel Ángel Costa",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "hello man",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "hello man",
+        "entity": "name",
+        "confidence": 0.8931315914058809,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "hola mi nombre es daniel",
+    "entities": [
+      {
+        "start": 18,
+        "end": 24,
+        "value": "daniel",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "buen dia mi nombre es marlene",
+    "entities": [
+      {
+        "start": 22,
+        "end": 29,
+        "value": "marlene",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "hola mi nombre es mariella",
+    "entities": [
+      {
+        "start": 18,
+        "end": 26,
+        "value": "mariella",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "buen dia. me llamo Veronica",
+    "entities": [
+      {
+        "start": 19,
+        "end": 27,
+        "value": "Veronica",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Hola! tengo arañitas. soy Romina mi DNI: 13.434.234, mi email romina.suare@gmail.com",
+    "entities": [
+      {
+        "start": 26,
+        "end": 32,
+        "value": "Romina",
+        "entity": "name"
+      },
+      {
+        "start": 41,
+        "end": 51,
+        "value": "13.434.234",
+        "entity": "dni"
+      },
+      {
+        "start": 62,
+        "end": 84,
+        "value": "romina.suare@gmail.com",
+        "entity": "email"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 62,
+        "end": 84,
+        "value": "romina.suare@gmail.com",
+        "entity": "email",
+        "confidence": 0.9051251880392456,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Hello, i'm Nicolas",
+    "entities": [
+      {
+        "start": 11,
+        "end": 18,
+        "value": "Nicolas",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Nathalie Lopez Gramajo",
+    "entities": [
+      {
+        "start": 0,
+        "end": 22,
+        "value": "Nathalie Lopez Gramajo",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "nathalie lopez",
+        "entity": "name",
+        "confidence": 0.535729153925193,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "mi nombre es Marcos Cuchian",
+    "entities": [
+      {
+        "start": 13,
+        "end": 27,
+        "value": "Marcos Cuchian",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Franco Veliz",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "Franco Veliz",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Silvana Infante",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "Silvana Infante",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Nelida Paredes Quiero",
+    "entities": [
+      {
+        "start": 0,
+        "end": 21,
+        "value": "Nelida Paredes Quiero",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Si. María Cristina Aråoz",
+    "entities": [
+      {
+        "start": 4,
+        "end": 24,
+        "value": "María Cristina Aråoz",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Ruth Rosana del Valle Bambicha",
+    "entities": [
+      {
+        "start": 0,
+        "end": 30,
+        "value": "Ruth Rosana del Valle Bambicha",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Gustavo Varela",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "Gustavo Varela",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Juan Pedro Aguirre",
+    "entities": [
+      {
+        "start": 0,
+        "end": 18,
+        "value": "Juan Pedro Aguirre",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "juan",
+        "entity": "name",
+        "confidence": 0.43892627451756117,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Hola...DNI 17385948 Los otros datos te los doy personalmente. .puede ser?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 19,
+        "value": "17385948",
+        "entity": "dni"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Nicolas Bianchi",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "Nicolas Bianchi",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Oscar Alemán",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "oscar alemán",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "mi nombre es daniel y quiero un turno",
+    "entities": [
+      {
+        "start": 13,
+        "end": 19,
+        "value": "daniel",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "mi nombre es Helga Ortiz Castro, 95.345.345",
+    "entities": [
+      {
+        "start": 13,
+        "end": 31,
+        "value": "Helga Ortiz Castro",
+        "entity": "name"
+      },
+      {
+        "start": 33,
+        "end": 43,
+        "value": "95.345.345",
+        "entity": "dni"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 33,
+        "end": 43,
+        "value": "95.345.345",
+        "entity": "dni",
+        "confidence": 0.9949606921241034,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Elsa Arias",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "Elsa Arias",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Estefanía Acuña",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "estefanía acuña",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Bob Lee Johnson",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "Bob Lee Johnson",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Nino Ojeda",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "nino ojeda",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Fanny Macias",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "Fanny Macias",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CHloe Villalba",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "CHloe Villalba",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Clotilde Ojeda",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "clotilde ojeda",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Dario Quiroga",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "Dario Quiroga",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Darien Ojeda",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "darien ojeda",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Constanza Montenegro",
+    "entities": [
+      {
+        "start": 0,
+        "end": 20,
+        "value": "constanza montenegro",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Pedro Contreras",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "pedro contreras",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "1231n1234",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "1231n1234",
+        "entity": "dni"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "DNI: 90.012,233",
+    "entities": [
+      {
+        "start": 5,
+        "end": 15,
+        "value": "90.012,233",
+        "entity": "dni"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "hola quiero un turno para nutricion, mi nombre es daniel",
+    "entities": [
+      {
+        "start": 26,
+        "end": 35,
+        "value": "nutricion",
+        "entity": "service"
+      },
+      {
+        "start": 50,
+        "end": 56,
+        "value": "daniel",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 26,
+        "end": 35,
+        "value": "nutrición",
+        "entity": "service",
+        "confidence": 0.973961353223688,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Hola necesito un turno para dermatologia dni 35477194 mail gastonfortuny@hotmail.com",
+    "entities": [
+      {
+        "start": 28,
+        "end": 40,
+        "value": "dermatología",
+        "entity": "service"
+      },
+      {
+        "start": 45,
+        "end": 53,
+        "value": "35477194",
+        "entity": "dni"
+      },
+      {
+        "start": 59,
+        "end": 84,
+        "value": "gastonfortuny@hotmail.com",
+        "entity": "email"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 28,
+        "end": 40,
+        "value": "dermatología",
+        "entity": "service",
+        "confidence": 0.9610237473346794,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 59,
+        "end": 84,
+        "value": "gastonfortuny@hotmail.com",
+        "entity": "email",
+        "confidence": 0.7743525157958514,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "mi nombre es Débora Olivera Toledo, 95.344.579, y quiero un turno para nutricion",
+    "entities": [
+      {
+        "start": 13,
+        "end": 34,
+        "value": "Débora Olivera Toledo",
+        "entity": "name"
+      },
+      {
+        "start": 36,
+        "end": 46,
+        "value": "95.344.579",
+        "entity": "dni"
+      },
+      {
+        "start": 71,
+        "end": 80,
+        "value": "nutrición",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 36,
+        "end": 46,
+        "value": "95.344.579",
+        "entity": "dni",
+        "confidence": 0.6771172597794102,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 71,
+        "end": 80,
+        "value": "nutrición",
+        "entity": "service",
+        "confidence": 0.9245770535996367,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "hola mi nombre es Nathalie Baranco y me gustaria reservar un turno para flebologia",
+    "entities": [
+      {
+        "start": 18,
+        "end": 34,
+        "value": "Nathalie Baranco",
+        "entity": "name"
+      },
+      {
+        "start": 72,
+        "end": 82,
+        "value": "flebología",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 72,
+        "end": 82,
+        "value": "flebología",
+        "entity": "service",
+        "confidence": 0.9985490797961841,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "buen dia! mi nombre es Romina y quiero un turno para flebologia. tengo varices. mi DNI: 12.234.234, mi email romina.suare@gmail.com",
+    "entities": [
+      {
+        "start": 23,
+        "end": 29,
+        "value": "Romina",
+        "entity": "name"
+      },
+      {
+        "start": 53,
+        "end": 63,
+        "value": "flebología",
+        "entity": "service"
+      },
+      {
+        "start": 88,
+        "end": 98,
+        "value": "12.234.234",
+        "entity": "dni"
+      },
+      {
+        "start": 109,
+        "end": 131,
+        "value": "romina.suare@gmail.com",
+        "entity": "email"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 23,
+        "end": 29,
+        "value": "romina",
+        "entity": "name",
+        "confidence": 0.5719245664421407,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 53,
+        "end": 63,
+        "value": "flebología",
+        "entity": "service",
+        "confidence": 0.9959749674655098,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 109,
+        "end": 131,
+        "value": "romina.suare@gmail.com",
+        "entity": "email",
+        "confidence": 0.9051251791709978,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "estimados! tengo arañitas. soy Romina y quiero un turno para flebologia. tengo varices. mi DNI: 13.434.234, mi email romina.suare@gmail.com",
+    "entities": [
+      {
+        "start": 31,
+        "end": 37,
+        "value": "Romina",
+        "entity": "name"
+      },
+      {
+        "start": 61,
+        "end": 71,
+        "value": "flebología",
+        "entity": "service"
+      },
+      {
+        "start": 96,
+        "end": 106,
+        "value": "13.434.234",
+        "entity": "dni"
+      },
+      {
+        "start": 117,
+        "end": 139,
+        "value": "romina.suare@gmail.com",
+        "entity": "email"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 31,
+        "end": 37,
+        "value": "romina",
+        "entity": "name",
+        "confidence": 0.5422639105973597,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 61,
+        "end": 71,
+        "value": "flebología",
+        "entity": "service",
+        "confidence": 0.9959749676677168,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 117,
+        "end": 139,
+        "value": "romina.suare@gmail.com",
+        "entity": "email",
+        "confidence": 0.9051251262609417,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "holis! mi nombre es Nicole Brown Simpson y quiero un turno para flebologia. seria posible este viernes?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 40,
+        "value": "Nicole Brown Simpson",
+        "entity": "name"
+      },
+      {
+        "start": 64,
+        "end": 74,
+        "value": "flebología",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 64,
+        "end": 74,
+        "value": "flebología",
+        "entity": "service",
+        "confidence": 0.9959831150645052,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "soy Coti y me gustaria reservar una cita de flebologoa",
+    "entities": [
+      {
+        "start": 4,
+        "end": 8,
+        "value": "Coti",
+        "entity": "name"
+      },
+      {
+        "start": 44,
+        "end": 54,
+        "value": "flebología",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "me llamo Ximena Gil 12.123.123 quiero turno con el flebologo",
+    "entities": [
+      {
+        "start": 9,
+        "end": 19,
+        "value": "Ximena Gil",
+        "entity": "name"
+      },
+      {
+        "start": 20,
+        "end": 30,
+        "value": "12.123.123",
+        "entity": "dni"
+      },
+      {
+        "start": 51,
+        "end": 60,
+        "value": "flebologo",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "hola , quiero sacar un turno con alguna dematologa en enero",
+    "entities": [
+      {
+        "start": 40,
+        "end": 50,
+        "value": "dermatología",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Hola buen día. me gustaria sacar un turno para la nutricionista",
+    "entities": [
+      {
+        "start": 50,
+        "end": 63,
+        "value": "nutrición",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Dame un turno para la dermatologa",
+    "entities": [
+      {
+        "start": 22,
+        "end": 33,
+        "value": "dermatologa",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Me gustaría sacar un turno para el odontologo",
+    "entities": [
+      {
+        "start": 35,
+        "end": 45,
+        "value": "odontologo",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "quiero un turno de ESTETICA",
+    "entities": [
+      {
+        "start": 19,
+        "end": 27,
+        "value": "ESTETICA",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "gracias por responder. necesito un turno de nutrición",
+    "entities": [
+      {
+        "start": 44,
+        "end": 53,
+        "value": "nutrición",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "18 hs",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "18 hs",
+        "entity": "name",
+        "confidence": 0.5118238955772978,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "tabla raza",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "tabla raza",
+        "entity": "name",
+        "confidence": 0.6287376337456116,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  }
+]
