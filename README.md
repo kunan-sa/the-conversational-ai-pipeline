@@ -122,3 +122,15 @@ streamlit run viewresults.py
 ```
 
 To learn more about Rasa pipelines, I recommend this great [YouTube tutorial](https://youtu.be/oj5oPGDlep4) by Vincent Warmerdam, of Rasa, and his accompanying [gist](https://gist.github.com/koaning/81fc9433182ccfb9dece4bb4dbde1f7a) from where I took the starter code for the streamlit ```viewresults.py```.
+
+---------------------
+
+## Bibliography
+
+Tom Bocklisch, Joey Faulkner, Nick Pawlowski, Alan Nichol, *Rasa: Open Source Language Understanding and Dialogue Management*, 15 December 2017<br/>
+
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, *Attention Is All You Need*, 6 December 2017<br/>
+
+Jianfeng Gao (Microsoft), Micahel Galley (Microsoft), Lihong Li (Google), *Neural Approaches to Conversational AI: Question Answering*, Task-Oriented Dialogues and Social Chatbots, 10 September 2019<br/>
+
+Jacob Devlin Ming-Wei Chang Kenton Lee Kristina Toutanova of Google AI Language, *BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding*, 11 October 2018
