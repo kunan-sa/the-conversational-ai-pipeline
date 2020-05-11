@@ -1,7 +1,7 @@
 language: es
 pipeline:
 - name: HFTransformersNLP
-  model_weights: "bert-base-uncased"
+  model_weights: "bert-base-multilingual-cased"
   model_name: "bert"
 - name: LanguageModelTokenizer
 - name: LanguageModelFeaturizer
