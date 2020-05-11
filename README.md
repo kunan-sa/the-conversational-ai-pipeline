@@ -73,7 +73,10 @@ In the featurization steps of the NLU pipeline, Rasa allows for pretrained word 
 ![intent classification results raw data](images/raw_data.png "intent classification results raw data")<br/>
 **Fig. 3.1**<br/>
 
-While Rasa makes available packages for pretrained word embedding in Spanish, in my research, using the BERT pretrained word embeddings did not provide the best results (see results/**diet_BERT_only**) because of regional jargon and colloquialisms found in the informal chats in Córdoba, Argentina, from where our data was taken. In fact, the highest performing model we obtained used no pretrained embeddings, but rather custom embeddings trained on our own data with four DIET transformer layers (see results/**diet_no_BERT**). Another option, which performed reasonably well, was to train our own custom features and then combine these custom embeddings with the BERT pretrained embeddings in a feed forward layer (see results/**diet_BERT_combined**). This option might be best for Spanish language projects with little training data. 
+While HuggingFace makes available packages for pretrained word embeddings for languages other than English. However in my research, using these BERT pretrained word embeddings alone did not provide the best results (see results/**diet_BERT_only**), perhaps because of regional jargon and colloquialisms found in the informal Spanish language chats in Córdoba, Argentina, from where our data was taken. The multilingual pretrained BERT embeddings we used were “trained on cased text in the top 104 languages with the largest Wikipedias,” according to the HuggingFace documentation.
+
+The highest performing model we obtained was by training our own custom features using DIET and then combining these supervised embeddings with the BERT pretrained embeddings in a feed forward layer (see results/**diet_BERT_combined**). This option is ideal for Spanish language projects with little training data. That being said, the combined model performed only negligibly better than the model that used DIET with no BERT pretrained embeddings (see results/**diet_without_BERT**).
+
 
 ### Transformer for dialogue 3.4
 
@@ -121,7 +124,7 @@ pip install streamlit
 streamlit run viewresults.py
 ```
 
-To learn more about Rasa pipelines, I recommend this great [YouTube tutorial](https://youtu.be/oj5oPGDlep4) by Vincent Warmerdam, of Rasa, and his accompanying [gist](https://gist.github.com/koaning/81fc9433182ccfb9dece4bb4dbde1f7a) from where I took the starter code for the streamlit ```viewresults.py```.
+###### To learn more about Rasa pipelines, I recommend this great [YouTube tutorial](https://youtu.be/oj5oPGDlep4) by Vincent Warmerdam, of Rasa, and his accompanying [gist](https://gist.github.com/koaning/81fc9433182ccfb9dece4bb4dbde1f7a) from where I took the starter code for the streamlit ```viewresults.py```.
 
 ---------------------
 
@@ -134,3 +137,8 @@ Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, *Attent
 Jianfeng Gao (Microsoft), Micahel Galley (Microsoft), Lihong Li (Google), *Neural Approaches to Conversational AI: Question Answering*, Task-Oriented Dialogues and Social Chatbots, 10 September 2019<br/>
 
 Jacob Devlin Ming-Wei Chang Kenton Lee Kristina Toutanova of Google AI Language, *BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding*, 11 October 2018
+
+
+```bert-base-multilingual-cased```
+
+Trained on cased text in the top 104 languages with the largest Wikipedias
